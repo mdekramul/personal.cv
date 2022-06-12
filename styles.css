@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(107, 108, 109);
+}
+.profile-photo {
+  width: 100px;
+  height: 120px;
+  border: 3px solid white;
+  border-radius: 50%;
+  float: left;
+}
+.container {
+  max-width: 1000px;
+  background-color: rgb(225, 236, 236);
+  margin: 0 auto;
+  padding: 20px;
+}
+.header-bio {
+  float: left;
+  margin: 30px;
+}
+.header-contact {
+  float: right;
+  padding: 30px;
+  color: black;
+}
+.header-contact a {
+  text-decoration: none;
+  color: black;
+}
+.header-contact a:hover {
+  color: blue;
+  text-decoration: underline;
+  font-weight: bold;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: black;
+}
+.div-clear {
+  clear: both;
+}
+hr {
+  border: 3px solid rgb(107, 108, 109);
+  border-bottom: none;
+  width: 100%;
+  margin: 20px auto;
+}
+main {
+}
+#about-me {
+}
+.information {
+  margin-bottom: 30px;
+}
+.left-div {
+  width: 30%;
+  float: left;
+}
+.right-div {
+  width: 70%;
+  float: left;
+}
+.common-hr {
+  border: solid rgb(107, 108, 109) 1px;
+  border-bottom: none;
+  margin: 20px auto;
+  width: 100%;
+}
+.work-div-left {
+  width: 45%;
+  float: left;
+}
+.work-div-right {
+  width: 45%;
+  float: right;
+}
+.bottom-style {
+  background-color: rgb(107, 108, 109);
+  text-align: center;
+  padding: 10px;
+}
+.bottom-style a {
+  text-decoration: none;
+  margin: 20px;
+  color: white;
+}
+.bottom-style p {
+  text-decoration: none;
+  margin: 20px;
+  color: white;
+}
+.link1:hover {
+  background-color: rgb(25, 103, 152);
+  border-radius: 2px;
+}
+.link2:hover {
+  background-color: rgb(255, 0, 0);
+  border-radius: 2px;
+}
+.link3:hover {
+  background-color: rgb(5, 147, 7);
+  border-radius: 2px;
+}
+.over-here {
+  margin: 15px;
+}
